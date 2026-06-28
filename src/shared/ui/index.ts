@@ -7,7 +7,7 @@ export { Card } from "./Card";
 export { ChatWidget } from "./ChatWidget";
 export { Checkbox } from "./Checkbox";
 export { EmptyState } from "./EmptyState";
-export { Chart } from "./Icon";
+export { Icon } from "./Icon";
 export { IconButton } from "./IconButton";
 export { InfoBox } from "./InfoBox";
 export { Input } from "./Input";

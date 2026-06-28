@@ -1,1 +1,1 @@
-export const Chart = () => <div>UI shared component</div>;
+export const Icon = () => <div>UI shared component</div>;
