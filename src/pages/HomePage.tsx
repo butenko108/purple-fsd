@@ -1,1 +1,8 @@
-export const HomePage = () => <div>MainPage</div>;
+import { Button } from "@/shared/ui";
+
+export const HomePage = () => (
+	<div>
+		<div>MainPage</div>
+		<Button />
+	</div>
+);
