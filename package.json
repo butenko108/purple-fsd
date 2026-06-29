@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "biome check .",
-    "format": "biome format --write ."
+    "format": "biome format --write .",
+    "fsd": "npx steiger ./src"
   },
   "dependencies": {
     "axios": "^1.18.1",
@@ -21,6 +22,7 @@
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.2",
+    "steiger": "^0.5.13",
     "typescript": "~6.0.2",
     "vite": "^8.1.0"
   }
