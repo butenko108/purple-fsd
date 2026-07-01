@@ -24,6 +24,9 @@ CourseCard+
 - Career
 CareerCard+
 
+- AI
+AIChatWidget
+AIMessage
 
 
 

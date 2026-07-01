@@ -1,1 +1,1 @@
-export const CareerCard = () => <div>UI shared component</div>;
+export const CareerCard = () => <div>CareerCard UI</div>;
