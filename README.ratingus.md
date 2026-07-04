@@ -1,56 +1,3 @@
-PurpleSchool
-
-# Slices
-- Notification
-- User
-- Course
-- AI
-- Career
-
-
-- Notification
-NotificationBanner?
-NotificationButton?
-
-- User
-UserCard?
-UserAvatar?
-UserBarChart?
-UserProgressRing?
-UserStatCard?
-
-- Course
-CourseCard+
-
-- Career
-CareerCard+
-
-- AI
-AIChatWidget?
-AIMessage?
-
-# Features
-- Notification
-- User
-- Course
-- AI
-- Career
-
-- Course
-FilterCourses
-- Career?
-FilterCareers?
-
-- AI
-SendMessage
-CreateNewChat
-
-
-
-
-
-Ratingus
-
 # Slices
 - Category
 - Article
@@ -105,4 +52,46 @@ EditUser
 
 - Company
 CompanyLinkButton
+
+# Widgets 9.4
+- Category
+- Article
+- Company
+- Correction
+- Review
+- User
+
+- Article
+ArticleIntro
+ArticleTableOfContent
+ArticleQnA
+
+- User
+UserAuthorInfo
+
+- Company
+CompanyRating
+CompanyInfo
+CompanyPeoplesRating
+CompanyTableOfCharacteristics
+CompanyListOfProducts
+
+- Review
+ReviewGallery
+
+# 9.5
+- Category
+- Article
+- Company
+- Correction
+- Review
+- Community
+
+- User
+UserProfileInfo
+UserCorrections
+UserReviews
+UserSocietyCard
+UserList
+UserCommunityCard
 
