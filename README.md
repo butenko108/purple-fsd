@@ -9,14 +9,15 @@ PurpleSchool
 
 
 - Notification
-NotificationBanner-
-NotificationButton+
+NotificationBanner?
+NotificationButton?
 
 - User
-UserAvatar-
-UserBarChart-
-UserProgressRing-
-UserStatCard-
+UserCard?
+UserAvatar?
+UserBarChart?
+UserProgressRing?
+UserStatCard?
 
 - Course
 CourseCard+
@@ -25,9 +26,24 @@ CourseCard+
 CareerCard+
 
 - AI
-AIChatWidget
-AIMessage
+AIChatWidget?
+AIMessage?
 
+# Features
+- Notification
+- User
+- Course
+- AI
+- Career
+
+- Course
+FilterCourses
+- Career?
+FilterCareers?
+
+- AI
+SendMessage
+CreateNewChat
 
 
 
@@ -43,7 +59,7 @@ Ratingus
 - Review
 - User
 
-
+# Entities
 - Category
 CategoryMenu?
 CategoryCard
@@ -63,4 +79,30 @@ RatingItem
 - User
 UserAvatar
 UserItem?
+
+# Features
+- Category
+- Article
+- Company
+- Correction
+- Review
+- User
+
+- Article
+ArticleLike
+ArticleDislike
+Share
+AddToFavorites
+AddCompany
+SuggestEdit
+AddCompanyInfo
+AddReview
+
+А если фича лайк / дизлайк могут использоваться для разных сущностей, то в какой слайс относить их?
+
+- User
+EditUser
+
+- Company
+CompanyLinkButton
 
